@@ -25,7 +25,7 @@ function App() {
       path: "/",
       element: (
         <>
-          <Navbar />   {/* ✅ INSIDE router */}
+          <Navbar />   
           <ProtectedRoute user={user}>
             <Home />
           </ProtectedRoute>
@@ -36,7 +36,7 @@ function App() {
       path: "/signin",
       element: (
         <>
-          <Navbar />   {/* ✅ INSIDE router */}
+          <Navbar />  
           <Signin />
         </>
       ),
@@ -45,7 +45,7 @@ function App() {
       path: "/signup",
       element: (
         <>
-          <Navbar />   {/* ✅ INSIDE router */}
+          <Navbar />   
           <Signup />
         </>
       ),
