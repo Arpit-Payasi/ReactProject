@@ -1,6 +1,12 @@
-import React from "react"
+import React from "react";
+import Form from "./organizer/events/create";
 
 function Home(){
-    return <div>Hello! This page is on progress!!!</div>;
+    return (
+      <div>
+        <Form />
+      </div>
+    );
 }
+
 export default Home;
